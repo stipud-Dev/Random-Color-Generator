@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body { 
+    min-height: 100vh;
+    font-family: cursive;
+}
+h1 {
+    text-align: center;
+    padding-block: .8em;
+}
+.container {
+    width: 100%;
+    padding: .3em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: .65em;
+}
+.color-container {
+    width: 300px;
+    height: 150px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    font-size: 1.563rem;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
